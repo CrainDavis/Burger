@@ -1,0 +1,25 @@
+{
+  "name": "devour-burger",
+  "version": "1.0.0",
+  "description": "MySQL, Node, Express, Handlebars, and ORM following the MVC design pattern",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrainDavis/Burger.git"
+  },
+  "author": "Chyna Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrainDavis/Burger/issues"
+  },
+  "homepage": "https://github.com/CrainDavis/Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
