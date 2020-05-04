@@ -9,7 +9,7 @@ This is an application that allows the user to input the name of any kind of bur
 * Node
 * Express
 * Handlebars
-
+A demonstration can be found below, as well as a link to the deployed application.
 ---
 
 ## Table of Contents:
@@ -165,9 +165,10 @@ https://www.contributor-covenant.org/translations.
 
 ## Resources:
 * [npm packages](https://www.npmjs.com/)
-    * [Node](https://www.npmjs.com/package/node)
-    * [Express](https://www.npmjs.com/package/express)
-    * [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
+    * [node](https://www.npmjs.com/package/node)
+    * [express](https://www.npmjs.com/package/express)
+    * [express-handlebars](https://www.npmjs.com/package/express-handlebars)
+    * [mysql](https://www.npmjs.com/package/mysql)
 * [MySQL](https://www.mysql.com/)
 * [Heroku](https://www.heroku.com/)
 
