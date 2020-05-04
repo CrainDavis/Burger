@@ -1,0 +1,70 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color: orange;
+}
+
+.page-heading-text {
+    font-family: 'Codystar', cursive;
+    font-weight: bold;
+    font-size: 90px;
+    color: white;
+}
+
+.page-header-logo {
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.burger-form {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: orange;
+}
+
+input[type=text]:focus {
+    outline: none;
+    background-color: lightgoldenrodyellow;
+    color: orange;
+}
+
+::placeholder {
+    color: orange;
+}
+
+.burger-list-header {
+    font-weight: bold;
+    font-size: 30px;
+    color: pink;
+}
+
+.burger-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.burger-label {
+    background-color: pink;
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: orange;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: white;
+}

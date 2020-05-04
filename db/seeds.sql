@@ -5,4 +5,4 @@ VALUES ("Bacon Cheeseburger", false), ("Swiss & Mushroom Burger", false), ("Gard
 
 -- ============================================================================
 
-SELECT * FROM burgers;
+-- SELECT * FROM burgers;

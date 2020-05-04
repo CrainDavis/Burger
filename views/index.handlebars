@@ -1,1 +1,81 @@
+<!-- jumbotron header with input section-->
+<div style="background-color:orange;" class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <!-- header text -->
+        <h1 class="display-4 page-heading-text"><span class="page-header-logo"><i class="fas fa-hamburger"></i></span> C's BURGERS</h1>
+        <br>
+        <!-- get burger form -->
+        <form class="create-form">
+            <div class="form-group">
+                <input class="burger-form form-input" type="text" id="burg-name" name="name"
+                    placeholder="enter the name of any burger, add to the list, and devour it!">
+                <button style="border-radius:10px;" type="submit" class="btn btn-danger btn-lg" id="addburger">
+                    <i class="fas fa-plus"></i> add to list
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
 
+<!-- main section -->
+<div class="container-fluid">
+    <div style="background-color:red;" class="row">
+        <h1 style="text-align:center; color:red;">text</h1>
+    </div>
+    <div style="background-color:green;" class="row">
+        <h1 style="text-align:center; color:green;">text</h1>
+    </div>
+    <div style="background-color:gold;" class="row">
+        <h3 style="text-align:center; color:gold;">text</h3>
+    </div>
+    <div style="background-color:brown;" class="row">
+        <h6 style="text-align:center; color:brown;">text</h6>
+    </div>
+    <div style="background-color:brown;" class="row">
+        <!-- burgers to be devoured -->
+        <div class="col-6">
+            <h4 class="burger-list-header">here are your burgers, ready to be devoured!</h4>
+            <ul class="list-group list-group-flush">
+                {{#each burgers}}
+                {{#unless devoured}}
+                <h6 class="burger-item">
+                    <span class="burger-label">{{this.burger_name}}
+                        <button style="border-radius:10px;" type="button" class="eat-burger btn btn-danger"
+                            id="eat-button" data-id="{{this.id}}" data-newDevoured="{{devour}}">
+                            <i class="fas fa-utensils"></i> devour!
+                        </button>
+                    </span>
+                </h6>
+                {{/unless}}
+                {{/each}}
+            </ul>
+        </div>
+        <!-- burgers that have been devoured -->
+        <div class="col-6">
+            <h4 class="burger-list-header">here are the burgers you have eaten so far!</h4>
+            <ul class="list-group list-group-flush">
+                {{#each burgers}}
+                {{#if devoured}}
+                <h6 class="burger-item">
+                    <span class="burger-label">{{this.burger_name}}
+                        <button style="border-radius:10px;" type="button" class="delete-burger btn btn-danger"
+                            id="delete-button" data-id="{{this.id}}" data-newDevoured="{{devour}}">
+                            <i class="fas fa-trash-alt"></i> remove!
+                        </button>
+                    </span>
+                </h6>
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div style="background-color:brown;" class="row">
+        <h6 style="text-align:center; color:brown;">text</h6>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small">
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a class="footer-link" href="https://github.com/CrainDavis"> Chyna Davis</a>
+    </div>
+</footer>
