@@ -4,12 +4,8 @@
 ---
 
 ## Description:
-This is an application that allows the user to input the name of any kind of burger, add it to the list of burgers to be devoured, devour the burger, and then remove the burger from the "devoured" list. This application uses the MVC design pattern and ORM, and incorporates the following packages and programs to run the application:
-* MySQL
-* Node
-* Express
-* Handlebars
-A demonstration can be found below, as well as a link to the deployed application.
+This is an application that allows the user to input the name of any kind of burger, add it to the list of burgers to be devoured, devour the burger, and then remove the burger from the "devoured" list. This application uses the Model-View-Control (MVC) design pattern as well as an Object-Relational-Mapping (ORM) method to construct a database. A demonstration can be found below, as well as a link to the deployed application.
+
 ---
 
 ## Table of Contents:
