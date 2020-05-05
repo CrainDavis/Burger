@@ -57,14 +57,15 @@ input[type=text]:focus {
 
 footer {
     background-color: orange;
+    color: white;
 }
 
 .footer-link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .footer-link:hover {
     text-decoration: none;
-    color: white;
+    color: gold;
 }

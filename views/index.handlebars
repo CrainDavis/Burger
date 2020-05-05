@@ -35,7 +35,7 @@
         <!-- burgers to be devoured -->
         <div class="col-6">
             <h4 class="burger-list-header">here are your burgers, ready to be devoured!</h4>
-            <ul class="list-group list-group-flush">
+            <ul class="burger-list list-group list-group-flush">
                 {{#each burgers}}
                 {{#unless devoured}}
                 <h6 class="burger-item">
@@ -52,8 +52,8 @@
         </div>
         <!-- burgers that have been devoured -->
         <div class="col-6">
-            <h4 class="burger-list-header">here are the burgers you have eaten so far!</h4>
-            <ul class="list-group list-group-flush">
+            <h4 class="burger-list-header">here are the burgers you have devoured so far!</h4>
+            <ul class="burger-list list-group list-group-flush">
                 {{#each burgers}}
                 {{#if devoured}}
                 <h6 class="burger-item">
