@@ -26,7 +26,7 @@ none required
 ---
 
 ## Usage:
-follow __[this link]()__ to use the application
+follow __[this link](https://obscure-coast-36112.herokuapp.com/)__ to use the application
 
 ---
 
