@@ -31,6 +31,7 @@ follow __[this link](https://obscure-coast-36112.herokuapp.com/)__ to use the ap
 ---
 
 ## Demonstration:
+![app-demo gif](public/assets/img/app-demo.gif)
 
 ---
 

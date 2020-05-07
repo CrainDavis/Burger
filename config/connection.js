@@ -2,6 +2,7 @@
 var mysql = require("mysql");
 var connection;
 
+// set up JawsDB / local connection
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
@@ -12,7 +13,7 @@ if (process.env.JAWSDB_URL) {
     password: "r00tPa$$",
     database: "burgers_db"
   });
-}
+};
 
 // make connection
 connection.connect(function(err) {
