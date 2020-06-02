@@ -15,7 +15,6 @@ This is an application that allows the user to input the name of any kind of bur
 * [License](#license)
 * [Contributing](#contributing)
 * [Resources](#resources)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ---
@@ -168,10 +167,6 @@ https://www.contributor-covenant.org/translations.
     * [mysql](https://www.npmjs.com/package/mysql)
 * [MySQL](https://www.mysql.com/)
 * [Heroku](https://www.heroku.com/)
-
----
-
-## Tests:
 
 ---
 
