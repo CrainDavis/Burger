@@ -8,9 +8,9 @@ function printQuestionMarks(num) {
   var arr = [];
   for (var i = 0; i < num; i++) {
     arr.push("?");
-  };
+  }
   return arr.toString();
-};
+}
 
 function objToSql(ob) {
   var arr = [];
@@ -19,12 +19,12 @@ function objToSql(ob) {
     if (Object.hasOwnProperty.call(ob, key)) {
       if (typeof value === "string" && value.indexOf(" ") >= 0) {
         value = "'" + value + "'";
-      };
+      }
       arr.push(key + "=" + value);
-    };
-  };
+    }
+  }
   return arr.toString();
-};
+}
 
 // =============================================================================================
 
@@ -67,22 +67,22 @@ var orm = {
       " WHERE " +
       condition;
 
-      console.log(queryString);
+    console.log(queryString);
 
-      connection.query(queryString, objColVals, function(err, res) {
-          if (err) throw err;
-          cb(res);
-      });
+    connection.query(queryString, objColVals, function (err, res) {
+      if (err) throw err;
+      cb(res);
+    });
   },
 
-  deleteOne: function(table, condition, cb) {
-      var queryString = "DELETE FROM " + table + " WHERE " + condition;
+  deleteOne: function (table, condition, cb) {
+    var queryString = "DELETE FROM " + table + " WHERE " + condition;
 
-      connection.query(queryString, function(err, res) {
-          if (err) throw err;
-          cb(res);
-      });
-  }
+    connection.query(queryString, function (err, res) {
+      if (err) throw err;
+      cb(res);
+    });
+  },
 };
 
 // =============================================================================================
